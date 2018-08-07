@@ -18,16 +18,17 @@
         h2 { font-size: 18px; position: relative; font-weight: 300; }
         h2 strong {font-size: 20px; padding: 0 5px 0 0; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        h3 { font-size: 18px; position: relative; font-weight: 150; }
+        h3 { font-size: 18px; position: relative; font-weight: 300; }
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 0 17px; }
-        #objective { width: 500px; float: left; }
+        #objective { width: 450px; float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; width: 75px; float: left; }
         dd { width: 700px; float: right; border-left: 1px solid #999; padding: 0 0 0 26px; }
         dd.clear { float: none; margin: 0; height: 15px; border-left: none; }
         .smartmargin { margin: 10px 0 0 0; }
+        .resize { max-height: 45%; max-width:45%;}
      </style>
 
      <style type="text/css" media="print">
@@ -39,7 +40,7 @@
 
     <div id="page-wrap">
 
-        <img src="images/11216581.jfif" alt="Jason Shortino" id="pic" />
+        <img class="resize" src="images/jasonDisney.JPG" alt="Jason Shortino" id="pic" />
 
         <div id="contact-info" class="vcard">
 
@@ -54,7 +55,7 @@
         </div>
 
         <div id="objective">
-            <p>
+            <p class="smartmargin">
                 I am graduating with a Bachelor's in Computer Science in December 2018. Hire me to do Computer Science for you!
             </p>
         </div>
@@ -65,33 +66,55 @@
             <dd class="clear"></dd>
             <dt>Education</dt>
             <dd>
-                <h2><strong>Long Beach State University</strong> Long Beach, CA <span>Graduating: Dec 2018</span></h2>
-                <p><strong>Major:</strong> Computer Science<br /></p>
-                <p><strong>GPA:</strong> 3.86<br /></p>
+                <h2><strong>California State University Long Beach</strong><span>Graduating: Dec 2018</span></h2>
+                <h3><i>&nbsp;&nbsp;Long Beach, CA</i></h3>
+                <ul>
+                    <li>Major: Computer Science</li>
+                    <li>GPA: 3.86</li>
+                </ul>
+
+                <h2 class="smartmargin"><strong>Las Positas Community College</strong><span>Aug 2013&dash;May 2016</span></h2>
+                <h3><i>&nbsp;&nbsp;Livermore, CA</i></h3>
+                <ul>
+                    <li>GPA: 3.35</li>
+                </ul>
             </dd>
 
             <dd class="clear"></dd>
             <dt>Skills</dt>
             <dd>
-                <h2><strong>Languages I Have Worked With</strong></h2>
-                <p>C, C++, C#, Java, Swift, Haskell, Python, Assembly</p>
+                <h2><strong>Proficient</strong></h2>
+                <ul>
+                    <li>Windows 7, 8, 10; MacOS 10.12, 10.13; C, C++, Java, Python, SQL</li>
+                </ul>
 
-                <h2 class="smartmargin"><strong>Computer skills</strong></h2>
-                <p>Microsoft productivity software (Word, Excel, etc), Windows, Mac, Linux</p>
+                <h2 class="smartmargin"><strong>Basic</strong></h2>
+                <ul>
+                    <li>Linux/Unix, Bash, Vi, JavaScript, Haskell, Assembly, Swift, Networking, Puppet</li>
+                </ul>
             </dd>
 
             <dd class="clear"></dd>
             <dt>Experience</dt>
             <dd>
-                <h2><strong>Computation Student Intern</strong><span>June 2017&ndash;June 2018</span></h2>
-                <h3><i>Lawrence Livermore National Laboratories: Livermore, Ca</i></h3>
+                <h2><strong>High Performance Computing (HPC) Student Intern</strong><span>June 2018&ndash;Aug 2018</span></h2>
+                <h3><i>&nbsp;&nbsp;Lawrence Livermore National Laboratories: Livermore, Ca</i></h3>
+                <ul>
+                    <li>Built and configured a 10-node HPC cluster capable of complex calculations (Linux)</li>
+                    <li>Utilized Puppet to automate parts of the cluster set up</li>
+                    <li>Expanded Pyvmomi (VMware vSphere API) functionality on a team of 4 (Python)</li>
+                </ul>
+
+                <h2 class="smartmargin"><strong>Computation Student Intern</strong><span>June 2017&ndash;June 2018</span></h2>
+                <h3><i>&nbsp;&nbsp;Lawrence Livermore National Laboratories: Livermore, Ca</i></h3>
                 <ul>
                     <li>Developed iOS application for laptop inventory management (Swift)</li>
                     <li>Handled imaging of computers for the influx of summer interns</li>
                     <li>Diagnosed customer computers and assisted in solving computer issues</li>
                 </ul>
+
                 <h2 class="smartmargin"><strong>Clerical Student Intern</strong><span>June 2012&ndash;Aug 2016</span></h2>
-                <h3><i>Sandia National Laboratories: Livermore, Ca</i></h3>
+                <h3><i>&nbsp;&nbsp;Sandia National Laboratories: Livermore, Ca</i></h3>
                 <ul>
                     <li>Maintained project database (Fortis Edit Station)</li>
                     <li>Organized and reviewed building water meter readings</li>
@@ -116,7 +139,7 @@
             <dd class="clear noprint"></dd>
             <dt class="noprint">Links</dt>
             <dd class="noprint">
-              <a href="https://github.com/gonsie/Cthulu-Resume"><span class="octicon octicon-mark-github" style="position: relative; color: black; margin: 3px;"></span>Find This on GitHub</a>
+              <a href="https://github.com/gonsie/Cthulu-Resume"><span class="octicon octicon-mark-github" style="position: relative; color: black; margin: 3px;"></span>Find This Template on GitHub</a>
             </dd>
 
             <dd class="clear"></dd>
@@ -124,7 +147,7 @@
 
         <div class="clear"></div>
 
-        <p class="noprint">Last Updated: December 31, 2009</p>
+        <p class="noprint">Last Updated: August 7, 2018</p>
     </div>
 
 </body>
